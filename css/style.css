@@ -1,0 +1,123 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5455555;
+    width: 100%;
+}
+.text-hover-effect:hover{
+    color: rgb(0, 200, 255) !important;
+}
+.text-hover-effect{
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+}
+/* .carousel-caption{
+    width:50%;
+    padding:15px;
+    text-align:center;
+    background-color:#000b3198;
+    backdrop-filter: blur(5px);
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    height: fit-content;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+} */
+ .contact{
+   margin-top: 150px;
+ }
+ .contact-card1 , .contact-card2 , .contact-card3{
+   margin-top: 20px;
+ }
+ .card-body{
+   margin: auto;
+   text-align: center;
+ }
+.footer{
+    background: #0b2941;
+    color: white;
+    margin-top:100px;
+    padding:50px 0;
+ } 
+
+ .footer-logo{
+    text-align:center
+ }
+
+ .footer-logo img{
+    width:150px;
+    height:150px;
+    padding:12px;
+ }
+
+ .footer-logo-desc{
+   text-align:center
+ }
+
+ .footer-header{
+    margin-bottom:25px
+ }
+.popular-links{
+   list-style-type: none;
+}
+.popular-links li{
+   margin-bottom: 10px;
+}
+.popular-links li a{
+   color:white;
+   text-decoration:none;
+   transition-duration: 500ms;
+}
+
+.popular-links li a:hover{
+    margin-left:10px;
+}
+.get-in-touch{
+   margin-bottom:12px
+}
+.follow-us{
+   text-align: center;
+   
+}
+.follow-us a{
+   text-decoration: none;
+   font-size:24px;
+   color:white;
+   margin:0 5px
+}
+/* Footer End */
+.section1 , .section2{
+   color: white;
+}
+.about{
+   color: white;
+   margin-top: 200px;
+   text-align: center;
+}
+.container h2{
+   color: white;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.works{
+   margin-top: 300px;
+}
+.contact{
+   width: 95%;
+}
+.get-in-touch{
+   margin-left: 6%;
+}
+@media only screen and (max-width: 575px) {
+   .hire , .follow , .pop-links{
+      margin-top: 50px;
+   }
+}
+@media only screen and (max-width: 768px) {
+   .hire , .follow{
+      margin-top: 50px;
+   }
+}
