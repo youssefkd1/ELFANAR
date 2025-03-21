@@ -26,6 +26,9 @@
     transform: translate(-50% , -50%);
     border-radius: 20px;
 } */
+ .carousel-item{
+   max-height: 700px;
+ }
  .contact{
    margin-top: 150px;
  }
